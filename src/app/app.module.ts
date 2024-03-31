@@ -11,6 +11,7 @@ import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { WackamoleComponent } from './wackamole/wackamole.component';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 
 @NgModule({
   imports: [
@@ -33,6 +34,7 @@ import { WackamoleComponent } from './wackamole/wackamole.component';
     CartComponent,
     ShippingComponent,
     WackamoleComponent,
+    ProductAlertsComponent,
   ],
   bootstrap: [AppComponent],
 })
